@@ -25,7 +25,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+  font-family: Verdana, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -200,8 +200,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo a {
   color: #1dcb54;
-  font-weight: 500;
-  font-family: cursive;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, ;
 }
 
 #header .logo img {
@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .navbar a i {
@@ -482,7 +482,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #17cf3f;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #hero h2 {
@@ -498,6 +498,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-menu, #hero .btn-book {
   font-weight: 600;
   font-size: 13px;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   display: inline-block;
@@ -686,7 +687,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: 'Times New Roman', Times, serif;
   color: #43ce31;
 }
 
@@ -907,7 +908,7 @@ section {
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
@@ -1609,9 +1610,11 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  color: rgb(28, 204, 28);
+
 }
 
 #footer .footer-top .footer-info p {
